@@ -1189,6 +1189,11 @@
 .icon-versions:before{content:"\e9ff";}
 .icon-x:before{content:"\ea00";}
 .icon-time:before{content:"\eaa8";}
+
+
+
+
+/****************start css ************************************/
 .sidebar-control.sidebar-main-toggle.hidden-xs > img{height:80px;}
 .sidebar.sidebar-main{top:-108px;}
 .font-32{
@@ -1223,5 +1228,20 @@
 }
 .nav_icon{
 	position:absolute;
-	right:-18px;
+	right:-10px;
+	z-index:9000;
+	line-height:0;
 }
+.z-index{
+	z-index:1000;
+}/*****19-02-2017************************************/
+.multilevelpushmenu_wrapper .floatRight{
+	margin-top:4px;
+}
+body{
+	width: 100% !important;
+	font-size:10px !important;
+}
+
+#slider1 img {width: 100%;}
+

@@ -1030,7 +1030,7 @@ $.fn.cycle.defaults = {
     easing:           null,     // easing method for both in and out transitions
     end:              null,     // callback invoked when the slideshow terminates (use with autostop or nowrap options): function(options)
     fastOnEvent:      0,        // force fast transitions when triggered manually (via pager or prev/next); value == time in ms
-    fit:              0,        // force slides to fit container
+    fit:              800,        // force slides to fit container
     fx:               'fade',   // name of transition effect (or comma separated names, ex: 'fade,scrollUp,shuffle')
     fxFn:             null,     // function used to control the transition: function(currSlideElement, nextSlideElement, options, afterCalback, forwardFlag)
     height:           'auto',   // container height (if the 'fit' option is true, the slides will be set to this height as well)
@@ -1064,7 +1064,7 @@ $.fn.cycle.defaults = {
     timeout:          4000,     // milliseconds between slide transitions (0 to disable auto advance)
     timeoutFn:        null,     // callback for determining per-slide timeout value:  function(currSlideElement, nextSlideElement, options, forwardFlag)
     updateActivePagerLink: null,// callback fn invoked to update the active pager link (adds/removes activePagerClass style)
-    width:            null      // container width (if the 'fit' option is true, the slides will be set to this width as well)
+    width:            800      // container width (if the 'fit' option is true, the slides will be set to this width as well)
 };
 
 })(jQuery);
